@@ -1,0 +1,117 @@
+@media (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body {
+    display: -ms-grid;
+    display: grid;
+    text-decoration: none;
+  }
+  body header {
+    z-index: 999;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 4fr 2fr;
+        grid-template-columns: 4fr 2fr;
+    background-color: #f3f3f3;
+    -webkit-box-shadow: 3px 3px 13px 3px rgba(0, 0, 0, 0.1);
+            box-shadow: 3px 3px 13px 3px rgba(0, 0, 0, 0.1);
+  }
+  body header h1 {
+    font-family: 'Nunito', sans-serif;
+    color: #0099ff;
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+    font-size: 24px;
+  }
+  body header input {
+    color: #0099ff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    border: none;
+    font-size: 14px;
+  }
+  body #sesion {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 20px 25px 25px 1fr;
+        grid-template-rows: 20px 25px 25px 1fr;
+    margin: auto;
+    margin-top: 25px;
+    padding: 10px;
+    height: 150px;
+    width: 80vw;
+    max-width: 350px;
+    background-color: #e6e6e6;
+    border-radius: 25px;
+    border-radius: 5px;
+  }
+  body #sesion #sesionText {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2;
+    color: #afafaf;
+    font-weight: 400;
+    text-align: center;
+  }
+  body #sesion #sesionUser, body #sesion #sesionPassword {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / 3;
+    margin: auto;
+    height: 20px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 5px;
+  }
+  body #sesion #sesionUser::-webkit-input-placeholder, body #sesion #sesionPassword::-webkit-input-placeholder {
+    color: #0099ff;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  body #sesion #sesionUser:-ms-input-placeholder, body #sesion #sesionPassword:-ms-input-placeholder {
+    color: #0099ff;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  body #sesion #sesionUser::-ms-input-placeholder, body #sesion #sesionPassword::-ms-input-placeholder {
+    color: #0099ff;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  body #sesion #sesionUser::placeholder, body #sesion #sesionPassword::placeholder {
+    color: #0099ff;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  body #sesion #sesionPassword {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3 / 4;
+  }
+  body #sesion #sesionButton {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    grid-row: 4 / 5;
+    width: 200px;
+    padding: 7px;
+    margin: auto;
+    background-color: #0099ff;
+    margin: auto;
+    border-radius: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    -webkit-box-shadow: 2px 3px rgba(0, 0, 0, 0.4);
+            box-shadow: 2px 3px rgba(0, 0, 0, 0.4);
+  }
+}
+/*# sourceMappingURL=style.css.map */
