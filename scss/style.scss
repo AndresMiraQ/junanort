@@ -7,6 +7,7 @@
     body{
         display: grid;
         text-decoration: none;
+        background-color: #1079be;
         header{
             z-index: 999;
             padding-top: 5px;
@@ -45,7 +46,7 @@
             border-radius: 25px;
             #sesionText{
                 grid-row: 1 / 2;
-                color: #afafaf;
+                color: #0099ff;
                 font-weight: 400;
                 text-align: center;
             }
@@ -60,7 +61,7 @@
                 margin-top: 5px;
             }
             #sesionUser::placeholder, #sesionPassword::placeholder{
-                color: #0099ff;
+                color: #5c5c5c48;
                 font-weight: 400;
                 font-size: 12px;
             }
