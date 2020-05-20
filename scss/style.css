@@ -4,43 +4,68 @@
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
   }
   body {
     display: -ms-grid;
     display: grid;
     text-decoration: none;
-    background-color: #1079be;
+    background-color: #133E7C;
   }
   body header {
     z-index: 999;
     padding-top: 5px;
     padding-bottom: 5px;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 4fr 2fr;
-        grid-template-columns: 4fr 2fr;
-    background-color: #f3f3f3;
-    -webkit-box-shadow: 3px 3px 13px 3px rgba(0, 0, 0, 0.1);
-            box-shadow: 3px 3px 13px 3px rgba(0, 0, 0, 0.1);
+    background: #091833;
+    -webkit-box-shadow: 0px 4px 10px #0099FF;
+            box-shadow: 0px 4px 10px #0099FF;
+    text-align: center;
   }
   body header h1 {
     font-family: 'Nunito', sans-serif;
     color: #0099ff;
     margin: 0;
     padding: 0;
-    margin-left: 15px;
-    font-size: 24px;
+    font-size: 34px;
+    text-shadow: 0px 0px 20px #0099ff;
   }
-  body header input {
-    color: #0099ff;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 400;
-    border: none;
-    font-size: 14px;
+  body .sections {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    height: 25vh;
+    max-height: 30vh;
+    width: 90vw;
+    max-width: 80vw;
+    background-color: #091833;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  body #sectionJudges {
+    color: #E5EA00;
+    text-shadow: 0px 0px 20px #E5EA00;
+  }
+  body #sectionClubs {
+    color: #0ABDC6;
+    text-shadow: 0px 0px 20px #0ABDC6;
+  }
+  body #sectionlearning {
+    color: #EA00D9;
+    text-shadow: 0px 0px 20px #EA00D9;
   }
   body #sesion {
-    display: -ms-grid;
-    display: grid;
+    display: none;
     -ms-grid-rows: 20px 25px 25px 1fr;
         grid-template-rows: 20px 25px 25px 1fr;
     margin: auto;
